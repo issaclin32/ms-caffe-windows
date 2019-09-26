@@ -1,6 +1,7 @@
 import setuptools
 
-with open('README.md', 'r', encoding='utf8') as fh:
+# remove encoding="utf8" for Python 2.7 support
+with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 install_requires=['numpy', 'scipy', 'scikit-image', 'protobuf', 'opencv-python']
