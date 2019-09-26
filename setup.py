@@ -10,7 +10,7 @@ setuptools.setup(
     version='1.0.0',
     author='Issac Lin',
     author_email='issaclin32@gmail.com',
-    description='Compiled version of Caffe(https://github.com/microsoft/caffe/)',
+    description='Compiled version of Caffe(https://github.com/microsoft/caffe/) for Python 2.7 on Windows',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/issaclin32/ms-caffe-windows',

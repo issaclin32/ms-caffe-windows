@@ -1,5 +1,8 @@
 ﻿# MS-Caffe-Windows
-This is the compiled version of [Caffe](https://github.com/microsoft/caffe/) for Windows.
+This is a compiled version of [Caffe](https://github.com/microsoft/caffe/) for **Python 2.7** on Windows.
+
+## Requirements
+This package requires [CUDA 7.5](https://developer.nvidia.com/cuda-toolkit-archive) and [cuDNN 5.0](https://developer.nvidia.com/cudnn) to work properly.
 
 ## Installation
 Install from [PyPI](https://pypi.org/):
