@@ -1,0 +1,14 @@
+setup.py
+caffe/__init__.py
+caffe/classifier.py
+caffe/coord_map.py
+caffe/detector.py
+caffe/draw.py
+caffe/io.py
+caffe/net_spec.py
+caffe/pycaffe.py
+ms_caffe_windows.egg-info/PKG-INFO
+ms_caffe_windows.egg-info/SOURCES.txt
+ms_caffe_windows.egg-info/dependency_links.txt
+ms_caffe_windows.egg-info/requires.txt
+ms_caffe_windows.egg-info/top_level.txt

@@ -14,7 +14,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/issaclin32/ms-caffe-windows',
-    packages=['wz_uniform_crawler'],
+    packages=['caffe'],
     install_requires=install_requires,
     classifiers=[
         'Programming Language :: Python :: 2.7',
