@@ -5,6 +5,7 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 install_requires=['numpy', 'scipy', 'scikit-image', 'protobuf', 'opencv-python']
+package_data={'caffe': ['*.pyd', '*.dll']}
 
 setuptools.setup(
     name='ms-caffe-windows',
@@ -16,11 +17,11 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/issaclin32/ms-caffe-windows',
     packages=['caffe'],
+    include_package_data=True,
     install_requires=install_requires,
     classifiers=[
         'Programming Language :: Python :: 2.7',
         'License :: OSI Approved :: MIT License',
         'Operating System :: Windows',
     ],
-    include_package_data=False
 )
